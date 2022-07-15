@@ -33,6 +33,8 @@ namespace MyTraining1121AngularDemo.Authorization.Users.Dto
         [StringLength(UserConsts.MaxPhoneNumberLength)]
         public string PhoneNumber { get; set; }
 
+
+        public string Address { get; set; }
         // Not used "Required" attribute since empty value is used to 'not change password'
         [StringLength(AbpUserBase.MaxPlainPasswordLength)]
         [DisableAuditing]

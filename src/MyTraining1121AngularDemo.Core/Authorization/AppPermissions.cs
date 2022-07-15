@@ -11,6 +11,8 @@
         public const string Pages_Persons_Edit = "Pages.Persons.Edit";
         public const string Pages_Persons_Delete = "Pages.Persons.Delete";
 
+
+
         //COMMON PERMISSIONS (FOR BOTH OF TENANTS AND HOST)
 
         public const string Pages = "Pages";
@@ -85,6 +87,8 @@
         public const string Pages_Tenant_PhoneBook_CreatePerson = "Pages.Tenant.PhoneBook.CreatePerson";
         public const string Pages_Tenant_PhoneBook_DeletePerson = "Pages.Tenant.PhoneBook.DeletePerson";
         public const string Pages_Tenant_PhoneBook_EditPerson = "Pages.Tenant.PhoneBook.EditPerson";
+        public const string Pages_Tenant_PhoneBook_FileUpload = "Pages.Tenant.PhoneBook.FileUpload";
+
 
 
         public const string Pages_Administration_Tenant_Settings = "Pages.Administration.Tenant.Settings";

@@ -21,6 +21,7 @@ namespace MyTraining1121AngularDemo.Authorization.Users.Dto
         public Guid? ProfilePictureId { get; set; }
 
         public bool IsEmailConfirmed { get; set; }
+        public string Address { get; set; }
 
         public List<UserListRoleDto> Roles { get; set; }
 

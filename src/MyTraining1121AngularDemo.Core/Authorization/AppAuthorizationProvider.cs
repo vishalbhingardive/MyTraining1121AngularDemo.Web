@@ -34,7 +34,10 @@ namespace MyTraining1121AngularDemo.Authorization
             phoneBook.CreateChildPermission(AppPermissions.Pages_Tenant_PhoneBook_CreatePerson, L("CreateNewPerson"), multiTenancySides: MultiTenancySides.Tenant);
             phoneBook.CreateChildPermission(AppPermissions.Pages_Tenant_PhoneBook_DeletePerson, L("DeletePerson"), multiTenancySides: MultiTenancySides.Tenant);
             phoneBook.CreateChildPermission(AppPermissions.Pages_Tenant_PhoneBook_EditPerson, L("EditPerson"), multiTenancySides: MultiTenancySides.Tenant);
-            
+
+
+            pages.CreateChildPermission(AppPermissions.Pages_Tenant_PhoneBook_FileUpload, L("FileUpload"), multiTenancySides: MultiTenancySides.Tenant);
+
 
             var persons = pages.CreateChildPermission(AppPermissions.Pages_Persons, L("Persons"));
             persons.CreateChildPermission(AppPermissions.Pages_Persons_Create, L("CreateNewPerson"));

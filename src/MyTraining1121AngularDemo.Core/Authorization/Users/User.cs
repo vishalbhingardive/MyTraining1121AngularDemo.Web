@@ -22,6 +22,9 @@ namespace MyTraining1121AngularDemo.Authorization.Users
 
         public string GoogleAuthenticatorKey { get; set; }
 
+
+        public virtual string Address { get; set; }
+
         public List<UserOrganizationUnit> OrganizationUnits { get; set; }
 
         //Can add application specific user properties here
